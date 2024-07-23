@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        // 二次修改提交22
+        // 二次修改提交2233
         val banner = findViewById<Banner<*, ImageAdapter>>(R.id.banner)
         val data = DataBean.testData2
         //自定义的图片适配器，也可以使用默认的BannerImageAdapter
