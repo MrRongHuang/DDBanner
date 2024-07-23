@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+//apply plugin: 'maven-publish'
+//apply plugin: 'signing'
+
+version = '2.2.3'
+
+android {
+    compileSdk 33
+
+    defaultConfig {
+        minSdk 23
+        targetSdk 33
+        versionCode 1
+        versionName version
+        consumerProguardFiles 'proguard-rules.pro'
+    }
+
+}
+
+dependencies {
+    implementation "androidx.viewpager2:viewpager2:1.1.0-beta02"
+}
+
+
+
